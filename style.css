@@ -1,0 +1,445 @@
+body {
+  margin: 0;
+  background-color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+main {
+  height: 300%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0% 5% 0 5%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+/*............LEFT SECTION ..............*/
+
+.left-section {
+  height: 100%;
+  width: 5%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dark-bodies {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+
+.full-dark {
+  height: 25px;
+  width: 25px;
+  margin-right: 2px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.half-dark {
+  height: 25px;
+  width: 12px;
+  margin-right: 2px;
+  background-color: black;
+  border-radius: 50%;
+}
+.mini-dark {
+  height: 25px;
+  width: 5px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.menu-key {
+  height: 40%;
+  width: 50px;
+  margin: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.menu-key img {
+  height: 20px;
+  width: 20px;
+}
+
+.menu-key img:nth-child(5){
+  border-top: 1px solid rgb(230, 218, 218);
+  padding-top: 1.5rem;
+}
+
+.login-letter {
+  height: 25px;
+  width: 25px;
+  box-sizing: border-box;
+  margin: 1.2rem;
+  padding-top: 3px;
+  background-color: rgb(146, 117, 117);
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+}
+
+/*............MIDDLE-SECTION..............*/
+
+.middle-section {
+  height: 290%;
+  width: 65%;
+  box-sizing: border-box;
+  padding-right: 4rem;
+  border: 1px solid rgb(230, 218, 218);
+  position: absolute;
+  left: 5%;
+}
+
+.topic {
+  width: 80%;
+  margin-left: 6rem;
+  margin-top: 1rem;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.topic button {
+  height: 40px;
+  box-sizing: border-box;
+  padding: 15px;
+  padding-top: 12px;
+  margin-left: 0.5rem;
+  font-size: larger;
+  text-transform: capitalize;
+  font-size: 15px;
+  border-radius: 20px;
+  border: 1px;
+}
+
+.topic button:hover,
+button:hover {
+  background-color: antiquewhite;
+}
+
+.reference-sites {
+  display: flex;
+  flex-direction: row;
+  margin-left: 6rem;
+  margin-top: 2rem;
+}
+
+.reference-sites img {
+  margin-left: 1rem;
+}
+
+.reference-sites :nth-of-type(2) {
+  height: 48px;
+  width: 48px;
+  border-radius: 50px;
+}
+
+.for-you {
+  height: 50px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 7rem;
+  padding-bottom: 1px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(230, 218, 218);
+}
+
+.for-you p {
+  padding-right: 30px;
+}
+
+.yellow-box {
+  height: 80px;
+  width: 80%;
+  margin-left: 7rem;
+  margin-top: 2rem;
+  padding-left: 25px;
+  padding-top: 2px;
+  box-sizing: border-box;
+  background-color: #f0e08f;
+  border-radius: 5px;
+  text-align: left;
+  line-height: 14px;
+}
+
+.big-div {
+  background-color: #fff;
+  height: 300px;
+  width: 80%;
+  box-sizing: border-box;
+  margin-left: 7rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(230, 218, 218);
+}
+
+.content {
+  height: 100%;
+  width: 80%;
+  box-sizing: border-box;
+  margin-right: 1rem;
+  text-align: left;
+}
+
+.author-info {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.author-info img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  padding: 5 0;
+}
+
+.author-info p {
+  padding-left: 10px;
+}
+
+.content h2 + p {
+  height: 90px;
+  width: 100%;
+  overflow: hidden;
+  line-height: 22px;
+}
+
+.content-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.content-bottom-text,
+.content-bottom-icons {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.content-bottom-text p {
+  padding-left: 8px;
+  margin-bottom: 2rem;
+}
+
+.content-bottom-icons img {
+  height: 20px;
+  width: 20px;
+  margin-top: 5px;
+  padding: 8px;
+}
+
+.content-bottom button {
+  height: 30px;
+  width: 70px;
+  margin-top: 8px;
+  border-radius: 30px;
+  border: 1px;
+}
+
+.picture {
+  margin-top: 13%;
+}
+/*............RIGHT-SECTION..............*/
+
+.right-section {
+  height: 112%;
+  width: 20%;
+  box-sizing: border-box;
+  padding-right: 0.5rem;
+  background-color: aliceblue;
+  position: absolute;
+  left: 70%;
+  
+}
+
+.right-section .top-butoon, .right-section input{
+  height: 40px;
+  width: 80%;
+  border-radius: 20px;
+  margin-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+  border: 1px solid rgb(230, 218, 218);
+}
+
+.right-section .top-butoon{
+  background-color: black;
+  color: #fff;
+}
+
+li{
+  height: 20px;
+  box-sizing: border-box; 
+}
+
+::marker{
+  color: green;
+  font-size: large;
+}
+
+.side-posts{
+  
+  width: 80%;
+  box-sizing: border-box;
+  padding-left: 1.5rem;
+  text-align: left;
+}
+
+.side-posts .author-info{
+  height: 20px;
+  
+}
+.side-posts p{
+  padding-top: 3px;
+  line-height: 1px;
+}
+.side-posts span, .toFollow span{
+  color: green;
+}
+
+.right-logo{
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.right-logo img{
+  height: 25px;
+  width: 25px;
+  padding-top: 15px;
+}
+
+.right-logo div + img {
+  height: 15px;
+  width: 15px;
+  padding-top: 20px;
+  padding-right: 2px;
+}
+
+.right-logo .dark-bodies{
+  margin-right: 3px;
+}
+
+.twitter-section{
+  width: 80%;
+  border-bottom: 1px solid rgb(230, 218, 218);
+  margin: 1.5rem;
+  padding-bottom: 1rem;
+  
+}
+
+.twitter.connect{
+  height: 40px;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+  border: 1px solid rgb(230, 218, 218);
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  color: black;
+  margin-bottom: 1.5rem;
+  
+}
+
+.twitter.connect img{
+  height: 25px;
+  width: 25px;
+  padding-top: 7px;
+  padding-right: 3px;
+  
+}
+
+.twitter.connect p{
+  height: 20px;
+  width: 100%;
+  font-size: 12.6px;
+}
+
+.Recommendedbutton{
+  text-align: left;
+  margin-left: 1.5rem;
+}
+
+.Recommendedbutton button{
+  height: 40px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-top: 0.5rem;
+  border: 1px;
+  padding: 0 1.5rem;
+
+}
+
+.toFollow{
+text-align: left;
+margin: 0 1.5rem;
+}
+
+.toFollow .who{
+  margin-top: 3rem;
+  margin-bottom: 0px;
+}
+
+.follow{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+
+}
+
+.follow img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-right: 10px;
+
+}
+
+.follow button{
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid rgb(230, 218, 218) ;
+  background-color: #fff;
+  padding: 0 1rem;
+  margin-top: 40px;
+
+}
+
+.reading{
+  margin: 1.5rem;
+  text-align: left;
+}
+
+.reading h4 + p + p{
+  margin-top: 4rem;
+  font-size: small;
+  line-height: 18px;
+}
+
+
+
+
